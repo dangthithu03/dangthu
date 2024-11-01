@@ -1,0 +1,80 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin.master.cs" Inherits="WebsiteBanHang.administrator.admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+    <%--<link href="css/bootstrap.min.css" rel="stylesheet" />--%>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .bs-example{
+    	    margin: 20px;
+            width:1000px;
+            margin:0 auto;
+            padding:10px 0px 10px;
+            box-shadow:0px 0px 10px rgba(0, 0, 0, 0.2);
+        } 
+        .content{
+            width:1000px;
+            padding-top:50px;
+        }
+        .form-control{
+            width:70%;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="bs-example">
+        <ul class="nav nav-pills" style="padding-left:20px;">
+            <li class="active"><a href="index.aspx">Home</a></li>
+            <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Quản lý tài khoản <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="them-tai-khoan.aspx">Thêm tài khoản</a></li>
+                    <li><a href="danh-sach-tai-khoan.aspx">Danh sách tài khoản</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Sản phẩm <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="them-san-pham.aspx">Thêm sản phẩm</a></li>
+                    <li><a href="danh-sach-san-pham.aspx">Danh sách sản phẩm</a></li>
+                    <li class="divider"></li>
+                    <li><a href="them-danh-muc-san-pham.aspx">Thêm nhóm sản phẩm</a></li>
+                    <li><a href="danh-sach-nhom-san-pham.aspx">Danh sách nhóm sản phẩm</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Tin tức <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="them-tin-tuc.aspx">Thêm tin tức</a></li>
+                    <li><a href="danh-sach-tin-tuc.aspx">Danh sách tin tức</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Khác<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="lienhe.aspx">Liên hệ</a></li>
+                    <li><a href="Danh-sach-quang-cao.aspx">Quảng cáo</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a><b id="name" runat="server"></b></a></li>
+            <li class="dropdown"><a href="xac-nhan-logout.aspx" data-toggle='modal' data-target='#myModal'>Logout</a></li>
+            <li class="dropdown"><a href="../index.aspx">Xem trang chủ</a></li>
+        </ul>
+        <div id='myModal' class='modal fade'><div class='modal-dialog'><div class='modal-content'></div></div></div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    
+</body>
+</html>

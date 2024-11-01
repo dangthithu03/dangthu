@@ -1,0 +1,19 @@
+E:\C#\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.dll.config
+E:\C#\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.dll
+E:\C#\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.pdb
+E:\C#\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.dll
+E:\C#\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.pdb
+E:\C#\WebsiteBanHang\WebsiteBanHang\bin\CKEditor.NET.pdb
+E:\C#\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.dll.licenses
+E:\C#\WebsiteBanHang\WebsiteBanHang\bin\CKEditor.NET.dll
+E:\C#\WebsiteBanHang\WebsiteBanHang\obj\Debug\WebsiteBanHang.csprojResolveAssemblyReference.cache
+D:\Webnangcao\Quangncvpk00132_Assignment (1)\WebsiteBanHang\bin\WebsiteBanHang.dll.config
+D:\Webnangcao\Quangncvpk00132_Assignment (1)\WebsiteBanHang\bin\WebsiteBanHang.dll
+D:\Webnangcao\Quangncvpk00132_Assignment (1)\WebsiteBanHang\bin\WebsiteBanHang.pdb
+D:\Webnangcao\Quangncvpk00132_Assignment (1)\WebsiteBanHang\bin\CKEditor.NET.pdb
+D:\Webnangcao\Quangncvpk00132_Assignment (1)\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.AssemblyReference.cache
+D:\Webnangcao\Quangncvpk00132_Assignment (1)\WebsiteBanHang\obj\Debug\WebsiteBanHang.dll.licenses
+D:\Webnangcao\Quangncvpk00132_Assignment (1)\WebsiteBanHang\obj\Debug\WebsiteBanHang.csproj.CoreCompileInputs.cache
+D:\Webnangcao\Quangncvpk00132_Assignment (1)\WebsiteBanHang\obj\Debug\WebsiteB.A55AFA1D.Up2Date
+D:\Webnangcao\Quangncvpk00132_Assignment (1)\WebsiteBanHang\obj\Debug\WebsiteBanHang.dll
+D:\Webnangcao\Quangncvpk00132_Assignment (1)\WebsiteBanHang\obj\Debug\WebsiteBanHang.pdb

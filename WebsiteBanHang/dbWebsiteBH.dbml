@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="WebsiteBH" Class="dbWebsiteBHDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=ADMINPC;Initial Catalog=WebsiteBH;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="WebsiteBHConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.LoaiSanPham" Member="LoaiSanPhams">
+    <Type Name="LoaiSanPham">
+      <Column Name="MaLoaiSP" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenLoaiSP" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="GhiChu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="LoaiSanPham_SanPham" Member="SanPhams" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="SanPham" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LoaiTinTuc" Member="LoaiTinTucs">
+    <Type Name="LoaiTinTuc">
+      <Column Name="MaLoaiTT" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenLoaiTT" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="GhiChu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="LoaiTinTuc_TinTuc" Member="TinTucs" ThisKey="MaLoaiTT" OtherKey="MaLoaiTT" Type="TinTuc" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LoginForm" Member="LoginForms">
+    <Type Name="LoginForm">
+      <Column Name="MaLog" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Pass" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SanPham" Member="SanPhams">
+    <Type Name="SanPham">
+      <Column Name="MaSP" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenSP" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MaLoaiSP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GiaSP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="AnhSP" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ChitietSP" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="LoaiSanPham_SanPham" Member="LoaiSanPham" ThisKey="MaLoaiSP" OtherKey="MaLoaiSP" Type="LoaiSanPham" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TinTuc" Member="TinTucs">
+    <Type Name="TinTuc">
+      <Column Name="MaTT" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TieuDe" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MaLoaiTT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MoTa" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="AnhTT" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ChitietTT" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="LoaiTinTuc_TinTuc" Member="LoaiTinTuc" ThisKey="MaLoaiTT" OtherKey="MaLoaiTT" Type="LoaiTinTuc" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.trangcon" Member="trangcons">
+    <Type Name="trangcon">
+      <Column Name="STT" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenTrang" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Link" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Noidung" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+</Database>

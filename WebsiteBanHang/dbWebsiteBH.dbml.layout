@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dbWebsiteBH">
+  <DataContextMoniker Name="/dbWebsiteBHDataContext" />
+  <nestedChildShapes>
+    <classShape Id="55ef4df4-c1d4-4dc1-b12f-7542af873222" absoluteBounds="0.75, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/dbWebsiteBHDataContext/LoaiSanPham" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b47dd3dd-f1c8-4dab-9aeb-0c7136ce0432" absoluteBounds="0.765, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8e3b5339-e9bd-46df-80d6-eb6103c31119" absoluteBounds="0.75, 1, 2, 1.3862939453125">
+      <DataClassMoniker Name="/dbWebsiteBHDataContext/LoaiTinTuc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="db4dae61-da8b-4df0-b419-eaf6e173d3a5" absoluteBounds="0.765, 1.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4ca1d847-7c06-4b59-96f9-8f952a263fc9" absoluteBounds="6.75, 0.5, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/dbWebsiteBHDataContext/LoginForm" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fdb8997a-e3c7-404e-9591-da63f7867356" absoluteBounds="6.765, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="26c461c1-7da8-4138-be8e-0e2b22af858e" absoluteBounds="3.5, 3.625, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/dbWebsiteBHDataContext/SanPham" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58ec4fbf-0d1d-42ba-87e5-c8f5e6628bd7" absoluteBounds="3.515, 4.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="80f7c1bf-c97b-4b12-983d-94b9c1ff80a5" absoluteBounds="3.5, 0.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/dbWebsiteBHDataContext/TinTuc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8df2d176-fcce-4ee9-afd2-30f1bb8825e3" absoluteBounds="3.515, 1.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7bcbf9ee-6984-4419-95f9-15d1d8382a7c" absoluteBounds="0.75, 5.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/dbWebsiteBHDataContext/trangcon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ce86f721-0aa7-4b40-8484-db3a3d895d90" absoluteBounds="0.765, 6.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 4.44314697265625); (3.5 : 4.44314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbWebsiteBHDataContext/LoaiSanPham/LoaiSanPham_SanPham" />
+      <nodes>
+        <classShapeMoniker Id="55ef4df4-c1d4-4dc1-b12f-7542af873222" />
+        <classShapeMoniker Id="26c461c1-7da8-4138-be8e-0e2b22af858e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.69314697265625); (3.5 : 1.69314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/dbWebsiteBHDataContext/LoaiTinTuc/LoaiTinTuc_TinTuc" />
+      <nodes>
+        <classShapeMoniker Id="8e3b5339-e9bd-46df-80d6-eb6103c31119" />
+        <classShapeMoniker Id="80f7c1bf-c97b-4b12-983d-94b9c1ff80a5" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

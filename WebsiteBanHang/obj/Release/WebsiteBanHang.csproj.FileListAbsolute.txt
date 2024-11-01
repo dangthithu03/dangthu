@@ -1,0 +1,9 @@
+E:\C#\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.dll.config
+E:\C#\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.dll
+E:\C#\WebsiteBanHang\WebsiteBanHang\bin\WebsiteBanHang.pdb
+E:\C#\WebsiteBanHang\WebsiteBanHang\bin\CKEditor.NET.dll
+E:\C#\WebsiteBanHang\WebsiteBanHang\bin\CKEditor.NET.pdb
+E:\C#\WebsiteBanHang\WebsiteBanHang\obj\Release\WebsiteBanHang.csprojResolveAssemblyReference.cache
+E:\C#\WebsiteBanHang\WebsiteBanHang\obj\Release\WebsiteBanHang.dll.licenses
+E:\C#\WebsiteBanHang\WebsiteBanHang\obj\Release\WebsiteBanHang.dll
+E:\C#\WebsiteBanHang\WebsiteBanHang\obj\Release\WebsiteBanHang.pdb
